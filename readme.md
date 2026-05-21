@@ -45,3 +45,4 @@ Los datos han sido extraídos de los archivos CSV (`clase_1` a `clase_4` y `clau
 La base de datos ha sido desplegada utilizando [Render](https://render.com), lo que permite su acceso remoto, escalabilidad y fácil integración con el resto del proyecto.
 
 ## 🔍 Queries de prueba
+Las queries de prueba están escritas en el archivo `db_scripts/queries.ipynb`. Son 4 consultas diferentes.
