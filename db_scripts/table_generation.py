@@ -26,7 +26,7 @@ def create_main_tables(conn, cur):
 
     # Create table bootcamp 
     cur.execute("""CREATE TABLE bootcamp (
-            fotocopiad SERIAL PRIMARY KEY,
+            bootcamp_id SERIAL PRIMARY KEY,
             nombre_bootcamp VARCHAR(50) NOT NULL
         );""")
     conn.commit()
@@ -134,11 +134,9 @@ def show_tables(conn):
         for t in tables:
             show_columns(conn=conn, table_name=t[0])
 
+
 # conn, cur = db_utils.connect_to_db()  # Connection to db in render 
-
-conn, cur = db_utils.connect_to_local_db()  # Connection to local db in postgres
+# conn, cur = db_utils.connect_to_local_db()  # Connection to local db in postgres
 # create_all_tables(conn, cur)
-
-show_tables(conn)
-
-db_utils.close_connection(conn, cur)
+# show_tables(conn)
+# db_utils.close_connection(conn, cur)
