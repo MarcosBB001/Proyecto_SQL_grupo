@@ -6,7 +6,7 @@ El proyecto abarca el diseño del esquema entidad-relación, la creación de las
 
 ---
 
-## Datos de Origen
+## 🗄️ Datos de Origen
 
 | Archivo | Descripción |
 |---|---|
@@ -18,7 +18,21 @@ El proyecto abarca el diseño del esquema entidad-relación, la creación de las
 
 ---
 
-## Diagrama Entidad-Relación
+## 🧩 Diagrama Entidad-Relación
 
-### Diseño de Tablas
+<div style="text-align: center;">
+  <img src="diagrama_entidad_relacion_bridge.png" width="600" />
+</div>
 
+### 🧱 Diseño de Tablas
+
+<div style="text-align: center;">
+  <img src="diagrama_tablas_relacion.png" width="600" />
+</div>
+
+## 🏗️ Creación de tablas
+
+## 📥 Inserción de datos
+
+## ☁️ Alojamiento de la BD
+La base de datos ha sido desplegada utilizando [Render](https://render.com), lo que permite su acceso remoto, escalabilidad y fácil integración con el resto del proyecto.
